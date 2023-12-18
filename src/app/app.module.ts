@@ -16,7 +16,9 @@ import { TeamComponent } from './component/team/team.component';
 import { TestimonialComponent } from './component/testimonial/testimonial.component';
 import { EmployeeComponent } from './component/employee/employee.component';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
-import { HttpClientModule} from '@angular/common/http'
+import { HttpClientModule} from '@angular/common/http';
+import { VacancyComponent } from './component/vacancy/vacancy.component';
+import { HeadComponent } from './Admin/head/head.component'
 
 @NgModule({
   declarations: [
@@ -32,7 +34,9 @@ import { HttpClientModule} from '@angular/common/http'
     PriceComponent,
     TeamComponent,
     TestimonialComponent,
-    EmployeeComponent
+    EmployeeComponent,
+    VacancyComponent,
+    HeadComponent
   ],
   imports: [
     BrowserModule,
