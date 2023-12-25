@@ -1,0 +1,26 @@
+
+<div class="bg-danger text-center text-white py-4">
+   <h1>Admin Login</h1>
+ </div>
+ 
+ <div class="container">
+
+   <form [formGroup]="AdminLogin" (ngSubmit)="OnSubmitData()" >
+                     <div>
+                       <label for="">AdminName</label>
+                    <input type="text" class="form-control" formControlName="AdminName" id="">
+                       </div>
+ 
+                       <div>
+                         <label for="">Password</label>
+                      <input type="text" class="form-control" formControlName="Password" id="">
+                         </div>
+   
+ 
+               <div class="center">
+                   <input type="submit" value="submit" class="btn-btn-success mt-5" >
+                   </div>
+   </form>
+
+ </div>
+ 

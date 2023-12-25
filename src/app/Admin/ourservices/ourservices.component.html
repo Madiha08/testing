@@ -1,0 +1,27 @@
+<div class="bg-danger text-center text-white py-4">
+    <h1>AddVacancy</h1>
+  </div>
+  
+  <div class="container">
+    <form [formGroup]="AddSevices" (ngSubmit)="OnSubmitData()">
+  
+        <div>
+        <label for="">Clientname</label>
+        <input type="text" class="form-control" formControlName="Clientname" id="">
+        </div>
+  
+        <div>
+            <label for="">email</label>
+            <input type="text" class="form-control" formControlName="email" id="">
+            </div>
+  
+            <div>
+                <label for="">Department</label>
+                <input type="text" class="form-control" formControlName="Department" id="">
+            </div>    
+                <div class="center">
+                    <input type="submit" value="submit" class="btn-btn-success mt-5">
+                    </div>
+    </form>
+  </div>
+  

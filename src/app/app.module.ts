@@ -3,7 +3,7 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { HeaderComponent } from './layout/header/header.component';
+import { HeaderComponent } from './component/header/header.component';
 import { HomeComponent } from './component/home/home.component';
 import { AboutComponent } from './component/about/about.component';
 import { ContactComponent } from './component/contact/contact.component';
@@ -14,12 +14,18 @@ import { DetailComponent } from './component/detail/detail.component';
 import { PriceComponent } from './component/price/price.component';
 import { TeamComponent } from './component/team/team.component';
 import { TestimonialComponent } from './component/testimonial/testimonial.component';
-import { EmployeeComponent } from './component/employee/employee.component';
+import { EmployeeComponent } from './Admin/employee/employee.component';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { HttpClientModule} from '@angular/common/http';
 import { VacancyComponent } from './component/vacancy/vacancy.component';
-import { HeadComponent } from './Admin/head/head.component'
-
+import { PanelComponent } from './Admin/panel/panel.component';
+import { EmployeeDetailComponent } from './Admin/employee-detail/employee-detail.component';
+import { OurservicesComponent } from './Admin/ourservices/ourservices.component';
+import { VacancydetailsComponent } from './Admin/vacancydetails/vacancydetails.component';
+import { OurservicedetailsComponent } from './Admin/ourservicedetails/ourservicedetails.component';
+import { OurserviceupdateComponent } from './Admin/ourserviceupdate/ourserviceupdate.component';
+import { EmployeeupdateComponent } from './Admin/employeeupdate/employeeupdate.component';
+import { AdminLoginComponent } from './Admin/admin-login/admin-login.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -36,7 +42,14 @@ import { HeadComponent } from './Admin/head/head.component'
     TestimonialComponent,
     EmployeeComponent,
     VacancyComponent,
-    HeadComponent
+    PanelComponent,
+    EmployeeDetailComponent,
+    OurservicesComponent,
+    VacancydetailsComponent,
+    OurservicedetailsComponent,
+    OurserviceupdateComponent,
+    EmployeeupdateComponent,
+    AdminLoginComponent
   ],
   imports: [
     BrowserModule,

@@ -10,7 +10,12 @@ import { ServiceComponent } from './component/service/service.component';
 import { PriceComponent } from './component/price/price.component';
 import { TeamComponent } from './component/team/team.component';
 import { BlogComponent } from './component/blog/blog.component';
-import { EmployeeComponent } from './component/employee/employee.component';
+import { EmployeeComponent } from './Admin/employee/employee.component';
+import { PanelComponent } from './Admin/panel/panel.component';
+import { EmployeeDetailComponent } from './Admin/employee-detail/employee-detail.component';
+import { VacancyComponent } from './Admin/vacancy/vacancy.component';
+import { OurservicesComponent } from'./Admin/ourservices/ourservices.component';
+import { AdminLoginComponent } from './Admin/admin-login/admin-login.component';
 
 const routes: Routes = [
   {path :'',component:HomeComponent},
@@ -22,7 +27,13 @@ const routes: Routes = [
   {path:'service',component:ServiceComponent},
   {path:'price',component:PriceComponent},
   {path:'team',component:TeamComponent},
-  {path:'employee',component:EmployeeComponent}
+  {path:'employee',component:EmployeeComponent},
+  {path:'panel',component:PanelComponent},
+  {path:'EmployeeDetail',component:EmployeeDetailComponent},
+  {path:'Vacancy',component:VacancyComponent},
+  {path:'ourservices',component:OurservicesComponent},
+  {path:'AdminLogin',component:AdminLoginComponent}
+
 ];
 
 @NgModule({
