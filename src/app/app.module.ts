@@ -49,7 +49,8 @@ import { AdminLoginComponent } from './Admin/admin-login/admin-login.component';
     OurservicedetailsComponent,
     OurserviceupdateComponent,
     EmployeeupdateComponent,
-    AdminLoginComponent
+    AdminLoginComponent,
+    EmployeeComponent
   ],
   imports: [
     BrowserModule,

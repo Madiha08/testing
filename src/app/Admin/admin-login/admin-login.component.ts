@@ -34,9 +34,9 @@ export class AdminLoginComponent {
 
         localStorage.setItem('loginToken', JSON.stringify(a))
         
-        console.log("login successfully");
+    alert("login successfully")
+        this.router.navigate(["Panel"])
       })
 
-   this.router.navigate(["Panel"])
 }
 }
