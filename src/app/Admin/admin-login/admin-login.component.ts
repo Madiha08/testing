@@ -21,18 +21,18 @@ export class AdminLoginComponent {
   }
 
   OnSubmitData(){
-      /*console.log(this.LoginData.value) ;*/
+      //console.log(this.AdminLogin.value) ;//
       this.service.login(this.AdminLogin.value).subscribe(a=>{
         console.log(a);
 
-        let token = JSON.stringify(a);
-        //console.log(token)//
+        //let token = JSON.stringify(a);
+        console.log(a)
         
-        let spliToken = token.split('"');
+      // let spliToken = token.split('"');
 
-        console.log(spliToken[3])
+      //console.log(spliToken[3])
 
-        localStorage.setItem('loginToken', spliToken[3])
+        localStorage.setItem('loginToken', JSON.stringify(a))
         
         console.log("login successfully");
       })

@@ -11,7 +11,7 @@ export class EmployeeService {
 
   appUrl ="https://localhost:7280/Employeee"
   
-  AddData(data:any){
+     AddData(data:any){
       return  this.http.post(this.appUrl , data)
      }
      GetData(data:any){

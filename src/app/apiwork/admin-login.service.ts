@@ -8,7 +8,7 @@ export class AdminLoginService {
 
 
   constructor(private http:HttpClient) { }
-  appUrl ="https://localhost:7210/api/Authenticate/api/ "
+  appUrl ="https://localhost:7210/api/Authenticate/api/  "
 
 
   login(data : any){
