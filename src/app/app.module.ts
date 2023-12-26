@@ -26,6 +26,7 @@ import { OurservicedetailsComponent } from './Admin/ourservicedetails/ourservice
 import { OurserviceupdateComponent } from './Admin/ourserviceupdate/ourserviceupdate.component';
 import { EmployeeupdateComponent } from './Admin/employeeupdate/employeeupdate.component';
 import { AdminLoginComponent } from './Admin/admin-login/admin-login.component';
+import { VacancyUpdateComponent } from './Admin/vacancy-update/vacancy-update.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -50,7 +51,8 @@ import { AdminLoginComponent } from './Admin/admin-login/admin-login.component';
     OurserviceupdateComponent,
     EmployeeupdateComponent,
     AdminLoginComponent,
-    EmployeeComponent
+    EmployeeComponent,
+    VacancyUpdateComponent
   ],
   imports: [
     BrowserModule,

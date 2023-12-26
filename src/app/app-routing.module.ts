@@ -16,6 +16,11 @@ import { EmployeeDetailComponent } from './Admin/employee-detail/employee-detail
 import { VacancyComponent } from './Admin/vacancy/vacancy.component';
 import { OurservicesComponent } from'./Admin/ourservices/ourservices.component';
 import { AdminLoginComponent } from './Admin/admin-login/admin-login.component';
+import { EmployeeupdateComponent } from './Admin/employeeupdate/employeeupdate.component';
+import { VacancydetailsComponent } from './Admin/vacancydetails/vacancydetails.component';
+import { VacancyUpdateComponent } from './Admin/vacancy-update/vacancy-update.component';
+import { OurserviceupdateComponent } from './Admin/ourserviceupdate/ourserviceupdate.component';
+import { OurservicedetailsComponent } from './Admin/ourservicedetails/ourservicedetails.component';
 
 const routes: Routes = [
   {path :'',component:HomeComponent},
@@ -27,11 +32,16 @@ const routes: Routes = [
   {path:'service',component:ServiceComponent},
   {path:'price',component:PriceComponent},
   {path:'team',component:TeamComponent},
-  {path:'employee',component:EmployeeComponent},
   {path:'panel',component:PanelComponent},
-  {path:'EmployeeDetail',component:EmployeeDetailComponent},
-  {path:'Vacancy',component:VacancyComponent},
-  {path:'ourservices',component:OurservicesComponent},
+  {path:'panel/employee',component:EmployeeComponent},
+  {path:'panel/EmployeeDetail',component:EmployeeDetailComponent},
+  {path:'panel/EmployeeUpdate',component:EmployeeupdateComponent},
+  {path:'panel/Vacancy',component:VacancyComponent},
+  {path:'panel/vacancyDetail',component:VacancydetailsComponent},
+  {path:'panel/vacancyUpdate',component:VacancyUpdateComponent},
+  {path:'panel/ourServices',component:OurservicesComponent},
+  {path:'panel/OurServicesUpdate',component:OurserviceupdateComponent},
+  {path:'panel/OurServicesDetail',component:OurservicedetailsComponent},
   {path:'AdminLogin',component:AdminLoginComponent}
 
 ];
